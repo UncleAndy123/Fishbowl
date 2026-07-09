@@ -34,10 +34,11 @@ Relationships follow Fishbowl's standard schema (`so.id → soitem.soid`, `custo
 
 ## Connecting to your own Fishbowl database
 
-This report was built against a test database named `test_powerbi`, connected via an ODBC DSN of the same name.
+This report was built against a test database named `test_powerbi`, connected via an ODBC DSN named `Fishbowl Test`.
 
 **Easiest path — same DSN name:**
 If you create an ODBC DSN on your machine also named `test_powerbi` pointing at your own Fishbowl MySQL instance, the report will connect with no changes required. Just open the `.pbix` and hit **Refresh**.
+Note however that you will need to create a Fishbowl instance with the database name of `test_powerbi`, or configure data on your own. 
 
 **Using a different DSN name:**
 1. Open the report in Power BI Desktop.
