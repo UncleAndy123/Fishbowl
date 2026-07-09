@@ -20,10 +20,7 @@ This repository contains a collection of scripts, SQL queries, and automation to
 
 ## Technology Stack
 
-This project is built with:
-- **CSS** (56.2%) - Styling for web interfaces and dashboards
-- **JavaScript** (38.6%) - Client-side logic and automation
-- **PHP** (4.5%) - Server-side scripts and API integrations
+Uses Power BI, Jaspersoft iReport, Fishbowl BI editor. 
 
 ## Features
 
@@ -64,14 +61,9 @@ Please feel free to:
 
 We appreciate all contributions that help make this repository more valuable for the Fishbowl community!
 
-## License
-
-[Add your license information here]
 
 ## Support
 
 For questions or issues related to this repository, please feel free to open an issue on GitHub or contact the repository maintainers.
 
 ---
-
-**Happy inventory managing!** 📦
