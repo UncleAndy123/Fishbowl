@@ -1,18 +1,77 @@
 # Fishbowl
-Fishbowl Inventory scripts, queries, etc.
 
-I am going to start putting the various scripts, queries, etc. I made Fishbowl Inventory in this repository.  I don't see a lot of similar things from other people so maybe this will help someone.
+Fishbowl Inventory scripts, queries, and dashboards.
 
-If you have any questions regarding them please feel free to contact me.
+## Overview
 
-DailySOFulfillmentReport
+This repository contains a collection of scripts, SQL queries, and automation tools designed to enhance and extend the functionality of Fishbowl Inventory management software. Whether you're looking to streamline your inventory processes, generate custom reports, or integrate Fishbowl with other systems, you'll find useful resources here.
 
-Our sales department wanted a report of all Sales Orders that were fulfilled every day.  They did not like the Fishbowl reporting method for this task.  They wanted an email showing the fulfilled orders, and any tracking information.  So, this queries Fishbowl Inventory for any orders that were fulfilled and produces a report that is then emailed to the sales department using another script.
+## Contents
 
-InventorySummary 
+- **Scripts** - Automation scripts and utility tools for Fishbowl operations
+- **Queries** - Custom SQL queries for data analysis and reporting
+- **Dashboards** - PowerBI dashboards for data visualization and insights (coming soon)
 
-This is a series of MySQL queries and other files used to product an inventory summary of changes during a period of time.  It queries Fishbowl Inventory and produces a web based report.
+### Existing Projects
 
-Inventory Count Report
+- **DailySOFulfillmentReport** - Daily email report of all fulfilled Sales Orders
+- **InventorySummary** - MySQL queries and web-based reporting for inventory changes over time
+- **Inventory Count Report** - Quick report generation tool for inventory counts
 
-This is a quick report for generating an Inventory Count.
+## Technology Stack
+
+This project is built with:
+- **CSS** (56.2%) - Styling for web interfaces and dashboards
+- **JavaScript** (38.6%) - Client-side logic and automation
+- **PHP** (4.5%) - Server-side scripts and API integrations
+
+## Features
+
+- Custom inventory management scripts
+- Database queries for reporting and analysis
+- Integration utilities for Fishbowl systems
+- PowerBI dashboard templates and configurations (in development)
+
+## PowerBI Dashboards
+
+PowerBI dashboard resources will be added to this repository as time allows. These dashboards will provide visual insights into your Fishbowl inventory data, helping you make data-driven decisions.
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/UncleAndy123/Fishbowl.git
+   ```
+
+2. Navigate to the relevant directory for the resource you need (scripts, queries, or dashboards)
+
+3. Review the documentation within each section for specific setup and usage instructions
+
+## Contributing
+
+Contributions are welcome! Whether you have:
+- Useful scripts or queries to share
+- Bug fixes or improvements
+- Dashboard ideas or designs
+- Documentation enhancements
+
+Please feel free to:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+We appreciate all contributions that help make this repository more valuable for the Fishbowl community!
+
+## License
+
+[Add your license information here]
+
+## Support
+
+For questions or issues related to this repository, please feel free to open an issue on GitHub or contact the repository maintainers.
+
+---
+
+**Happy inventory managing!** 📦
