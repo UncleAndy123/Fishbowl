@@ -23,8 +23,14 @@ Drill-through is configured with **Cross-report** and **Keep all filters** both 
 ## Data model
 
 Tables used: `so`, `soitem`, `soitemstatus`, `sostatus`, `customer`, `part`, `product`.
+Below is a screensnip showing the data relationships.
+First, add all the tables via Get data> ODBC> Select your tables.
+Then go to Manage relationships> Autodetect. In this example file, PowerBI correctly created all the relationships. 
+<img width="1917" height="1032" alt="image" src="https://github.com/user-attachments/assets/9533c398-5b57-4f9a-a7cf-1df906e0dbde" />
 
 Relationships follow Fishbowl's standard schema (`so.id → soitem.soid`, `customer.id → so.customerid`, `part.id → soitem.partid`). If you hit an "ambiguous paths" error when adding a relationship, it means two active paths already connect the same two tables — uncheck **Make this relationship active** on the new one to resolve it.
+
+
 
 ## Connecting to your own Fishbowl database
 
